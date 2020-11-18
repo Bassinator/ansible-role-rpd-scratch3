@@ -1,0 +1,21 @@
+---
+- name: "install gpg"
+  apt:
+    name: gnupg-utils
+    state: present
+    update_cache: yes
+
+- name: Add apt key by id from a keyserver
+  apt_key:
+    keyserver: keyserver.ubuntu.com
+    id: 379CE192D401AB61
+
+- apt_repository:
+    repo: deb https://dl.bintray.com/scratux/stable buster main
+    state: present
+
+- name: install scratux
+  apt:
+    name:
+      - scratux
+    state: present
