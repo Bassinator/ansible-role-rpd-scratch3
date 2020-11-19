@@ -20,3 +20,4 @@
     name:
       - scratux
     state: present
+    update_cache: true
