@@ -1,3 +1,5 @@
+---
+
 galaxy_info:
   author: Bastian Bukatz
   description: Install scratc3 Desktop (as known from Raspberry PI)
@@ -10,7 +12,7 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-      - l0
+        - l0
 
   galaxy_tags: []
 
