@@ -2,6 +2,6 @@
 - name: Converge
   hosts: all
   tasks:
-    - name: "Include bassinator.rpd-scratch3"
+    - name: "Include bassinator.rpd_scratch3"
       include_role:
-        name: "bassinator.rpd-scratch3"
+        name: "bassinator.rpd_scratch3"
