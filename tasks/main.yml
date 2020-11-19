@@ -10,7 +10,8 @@
     keyserver: keyserver.ubuntu.com
     id: 379CE192D401AB61
 
-- apt_repository:
+- name: add scratux repository
+  apt_repository:
     repo: deb https://dl.bintray.com/scratux/stable buster main
     state: present
 
