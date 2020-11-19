@@ -1,6 +1,7 @@
 ---
 
 galaxy_info:
+  role_name: rpd_scratch3
   author: Bastian Bukatz
   description: Install scratc3 Desktop (as known from Raspberry PI)
   company: einfachIT
